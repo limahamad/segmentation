@@ -53,17 +53,6 @@
       "rel": "parent",
       "href": "../catalog.json"
     },
-    {
-      "rel": "item",
-      "href": "AOI_2_Vegas_img2636.json"
-    },
-    {
-      "rel": "item",
-      "href": "AOI_3_Paris_img1648.json"
-    },
-    {
-      "rel": "item",
-      "href": "AOI_4_Shanghai_img3344.json"
-    }
+
   ]
 }
