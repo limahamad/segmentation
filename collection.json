@@ -1,0 +1,69 @@
+{
+  "stac_version": "1.0.0-rc.1",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "id": "buildings-collection",
+  "title": "buildings AoI",
+  "description": "Collection of training labels for buildings",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+         565835.9558295598, 
+          8587019.91930474, 
+        566457.4553079598, 
+        8587864.21608114
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "version": "1.0",
+  "keywords": [
+    "demo"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "providers": [
+    {
+      "name": "SpaceNet",
+      "roles": [
+        "licensor",
+        "host",
+        "producer",
+        "processor"
+      ],
+      "url": "https://spacenet.ai"
+    }
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "item",
+      "href": "AOI_2_Vegas_img2636.json"
+    },
+    {
+      "rel": "item",
+      "href": "AOI_3_Paris_img1648.json"
+    },
+    {
+      "rel": "item",
+      "href": "AOI_4_Shanghai_img3344.json"
+    }
+  ]
+}
