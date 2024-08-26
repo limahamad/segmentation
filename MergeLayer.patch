@@ -1,0 +1,9 @@
+--- venv/lib/python3.12/site-packages/fastai/layers.py
++++ venv/lib/python3.12/site-packages/fastai/layers.py
+@@ -1,5 +1,5 @@
+ class MergeLayer(Module):
+-    "Merge a shortcut with the result of the module by adding them or concatenating them if `dense=True`."
++    "Merge a shortcut with the result of the module by adding them or concatenating thme if `dense=True`."
+     def __init__(self, dense:bool=False): self.dense=dense
+     def forward(self, x): return torch.cat([x,x.orig], dim=1) if self.dense else (x+x.orig)
+ 
